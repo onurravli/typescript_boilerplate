@@ -1,0 +1,21 @@
+{
+    "name": "typescript_boilerplate",
+    "version": "1.0.0",
+    "description": "A simple TypeScript project boilerplate.",
+    "main": "./dist/index.js",
+    "scripts": {
+        "start": "node ./dist/index.js",
+        "serve": "nodemon ./dist/index.js"
+    },
+    "keywords": [
+        "typescript",
+        "typescript boilerplate"
+    ],
+    "author": "Onur Ravli",
+    "license": "MIT",
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.48.2",
+        "@typescript-eslint/parser": "^5.48.2",
+        "eslint": "^8.32.0"
+    }
+}
